@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b13">
+  <meta name="description" content="A small demo displaying automatically extracted casino bonus terms from one public source.">
+  <title>CasinoTracker — Bonus Comparison</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="CasinoTracker homepage"><span class="brand-mark" aria-hidden="true">♛</span> Casino<span>Tracker</span></a>
+      <span class="header-tag">AIBOOST · Web Developer Assessment</span>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="heading">
+        <div class="hero-copy">
+          <p class="eyebrow">COMPARE · UNDERSTAND · VERIFY</p>
+          <h1 id="heading">Casino bonus <span>comparison</span></h1>
+          <p class="hero-description">Welcome offers and terms gathered from a public comparison page, structured using AI, and displayed directly from a JSON file.</p>
+          <div class="hero-notes">
+            <span><span class="note-icon">✓</span> Public source</span>
+            <span><span class="note-icon">✦</span> AI-structured fields</span>
+            <span><span class="note-icon">◇</span> Mobile friendly</span>
+          </div>
+        </div>
+        <div class="hero-deco" aria-hidden="true"><span>♠</span><span>♦</span><span>♣</span></div>
+      </section>
+
+      <section class="comparison" aria-labelledby="comparison-heading">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">SOURCE-DERIVED DATA</p>
+            <h2 id="comparison-heading">Welcome bonuses</h2>
+            <p class="subheading">Three entries from one public website · no manually entered bonus figures</p>
+          </div>
+          <span class="count" id="count" aria-live="polite">Loading...</span>
+        </div>
+        <p id="status" class="status" role="status">Loading JSON data...</p>
+        <div class="table-scroll" id="table-wrap" hidden>
+          <table>
+            <thead><tr><th scope="col">Casino</th><th scope="col">Welcome bonus</th><th scope="col">Wagering</th><th scope="col">Min. deposit</th><th scope="col">Source</th></tr></thead>
+            <tbody id="casino-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="information" aria-label="Data information">
+        <div class="info-item"><span class="info-icon" aria-hidden="true">▤</span><div><h3>Data source</h3><p>Bonus data comes from a third-party comparison page. Check the original source for current terms and conditions.</p></div></div>
+        <div class="info-item"><span class="info-icon" aria-hidden="true">◷</span><div><h3>Last extracted</h3><p id="updated">Waiting for scraper to run</p></div></div>
+      </section>
+      <p class="disclaimer">Educational screening project · 18+ · Terms can change. This page is not a recommendation to gamble.</p>
+    </main>
+  </div>
+</body>
+</html>

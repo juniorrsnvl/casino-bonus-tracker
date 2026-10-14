@@ -1,0 +1,27 @@
+{
+  "updated_at": "2026-10-14T11:09:35+00:00",
+  "source": "https://betproof.co.za/casino-bonuses-south-africa/sign-up-bonus-south-africa/",
+  "casinos": [
+    {
+      "name": "PlayaBets",
+      "welcome_bonus": "100% up to R3,000",
+      "wagering_multiplier": 6,
+      "minimum_deposit": "R10",
+      "source_url": "https://betproof.co.za/casino-bonuses-south-africa/sign-up-bonus-south-africa/"
+    },
+    {
+      "name": "Springbok",
+      "welcome_bonus": "R250 free + R11,500 package",
+      "wagering_multiplier": 30,
+      "minimum_deposit": "R25",
+      "source_url": "https://betproof.co.za/casino-bonuses-south-africa/sign-up-bonus-south-africa/"
+    },
+    {
+      "name": "20Bet",
+      "welcome_bonus": "R2,400 + 120 spins",
+      "wagering_multiplier": 40,
+      "minimum_deposit": "R400",
+      "source_url": "https://betproof.co.za/casino-bonuses-south-africa/sign-up-bonus-south-africa/"
+    }
+  ]
+}
