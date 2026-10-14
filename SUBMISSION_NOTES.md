@@ -24,10 +24,10 @@ I created a Python scraper that reads bonus terms for three casinos from a publi
 
 ## Time spent
 
-- **Start:** 11:42 AM SAST (estimated)
+- **Start:** approximately 11:42 AM SAST
 - **Working site confirmed:** approximately 1:46 PM SAST
-- **Elapsed by that check:** approximately 2 hours 4 minutes
-- **Final total including documentation and submission:** *Update to the actual final duration before sending.*
+- **Final documentation and submission:** approximately 2:03 PM SAST
+- **Total time:** approximately **2 hours 21 minutes**, within the three-hour assessment limit.
 
 ## Limitations and next improvements
 
@@ -36,5 +36,3 @@ I created a Python scraper that reads bonus terms for three casinos from a publi
 - I would add monitoring, more source checks, and a database before scaling to 200 casinos.
 - The website is an informational comparison demo, not a gambling recommendation.
 
-**Note before submission:** Confirm the published site still loads all three records, verify the bonus figures against the linked source, and replace the final-duration placeholder with the actual time spent. The assessment's three-hour cap still applies.
-]
